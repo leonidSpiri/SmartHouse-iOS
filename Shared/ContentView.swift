@@ -13,7 +13,7 @@ struct ContentView: View {
             .padding()
             .onAppear{
                 GetFromSQL().getSQLStatistics(name: "home", sensor: "4", whatDayGet: "2022-02-27") { (resArr) in
-                    text = resArr[resArr.endIndex-1][1]
+                    text = resArr[resArr.endIndex-1][2]
         }
             }
     }
