@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622471087779AD67E06E843C /* Pods_SmartHouse__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA8C54387408EDCD4F7593 /* Pods_SmartHouse__iOS_.framework */; };
+		84020992273C59F7001E4CB1 /* SmartHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84020982273C59F5001E4CB1 /* SmartHouseApp.swift */; };
+		84020993273C59F7001E4CB1 /* SmartHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84020982273C59F5001E4CB1 /* SmartHouseApp.swift */; };
+		84020994273C59F7001E4CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84020983273C59F5001E4CB1 /* ContentView.swift */; };
+		84020995273C59F7001E4CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84020983273C59F5001E4CB1 /* ContentView.swift */; };
+		84020996273C59F7001E4CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84020984273C59F7001E4CB1 /* Assets.xcassets */; };
+		84020997273C59F7001E4CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84020984273C59F7001E4CB1 /* Assets.xcassets */; };
+		840209A5273C61E3001E4CB1 /* GetFromSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840209A4273C61E3001E4CB1 /* GetFromSQL.swift */; };
+		840209A6273C61E3001E4CB1 /* GetFromSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840209A4273C61E3001E4CB1 /* GetFromSQL.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27041BCF4CC74A3AAD65E6A3 /* Pods-SmartHouse (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHouse (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SmartHouse (iOS)/Pods-SmartHouse (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		53C2FC963BBAD55D328E1F64 /* Pods-SmartHouse (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHouse (iOS).release.xcconfig"; path = "Target Support Files/Pods-SmartHouse (iOS)/Pods-SmartHouse (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		63CA8C54387408EDCD4F7593 /* Pods_SmartHouse__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHouse__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84020982273C59F5001E4CB1 /* SmartHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHouseApp.swift; sourceTree = "<group>"; };
+		84020983273C59F5001E4CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84020984273C59F7001E4CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84020989273C59F7001E4CB1 /* SmartHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8402098F273C59F7001E4CB1 /* SmartHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84020991273C59F7001E4CB1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		840209A4273C61E3001E4CB1 /* GetFromSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFromSQL.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84020986273C59F7001E4CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622471087779AD67E06E843C /* Pods_SmartHouse__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8402098C273C59F7001E4CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032F564375FA64ABAA91B184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27041BCF4CC74A3AAD65E6A3 /* Pods-SmartHouse (iOS).debug.xcconfig */,
+				53C2FC963BBAD55D328E1F64 /* Pods-SmartHouse (iOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8402097C273C59F5001E4CB1 = {
+			isa = PBXGroup;
+			children = (
+				84020981273C59F5001E4CB1 /* Shared */,
+				84020990273C59F7001E4CB1 /* macOS */,
+				8402098A273C59F7001E4CB1 /* Products */,
+				032F564375FA64ABAA91B184 /* Pods */,
+				F924FF06B63062EE053F05FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84020981273C59F5001E4CB1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				84020982273C59F5001E4CB1 /* SmartHouseApp.swift */,
+				84020983273C59F5001E4CB1 /* ContentView.swift */,
+				84020984273C59F7001E4CB1 /* Assets.xcassets */,
+				840209A4273C61E3001E4CB1 /* GetFromSQL.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8402098A273C59F7001E4CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84020989273C59F7001E4CB1 /* SmartHouse.app */,
+				8402098F273C59F7001E4CB1 /* SmartHouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84020990273C59F7001E4CB1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				84020991273C59F7001E4CB1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F924FF06B63062EE053F05FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63CA8C54387408EDCD4F7593 /* Pods_SmartHouse__iOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84020988273C59F7001E4CB1 /* SmartHouse (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8402099A273C59F7001E4CB1 /* Build configuration list for PBXNativeTarget "SmartHouse (iOS)" */;
+			buildPhases = (
+				B3464122E9FD4F2463F9B9B0 /* [CP] Check Pods Manifest.lock */,
+				84020985273C59F7001E4CB1 /* Sources */,
+				84020986273C59F7001E4CB1 /* Frameworks */,
+				84020987273C59F7001E4CB1 /* Resources */,
+				330EDDC4CF592ECE4FCA6BF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartHouse (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SmartHouse (iOS)";
+			productReference = 84020989273C59F7001E4CB1 /* SmartHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8402098E273C59F7001E4CB1 /* SmartHouse (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8402099D273C59F7001E4CB1 /* Build configuration list for PBXNativeTarget "SmartHouse (macOS)" */;
+			buildPhases = (
+				8402098B273C59F7001E4CB1 /* Sources */,
+				8402098C273C59F7001E4CB1 /* Frameworks */,
+				8402098D273C59F7001E4CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartHouse (macOS)";
+			productName = "SmartHouse (macOS)";
+			productReference = 8402098F273C59F7001E4CB1 /* SmartHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8402097D273C59F5001E4CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					84020988273C59F7001E4CB1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					8402098E273C59F7001E4CB1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 84020980273C59F5001E4CB1 /* Build configuration list for PBXProject "SmartHouse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8402097C273C59F5001E4CB1;
+			packageReferences = (
+				840209A1273C5C11001E4CB1 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 8402098A273C59F7001E4CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84020988273C59F7001E4CB1 /* SmartHouse (iOS) */,
+				8402098E273C59F7001E4CB1 /* SmartHouse (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84020987273C59F7001E4CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84020996273C59F7001E4CB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8402098D273C59F7001E4CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84020997273C59F7001E4CB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330EDDC4CF592ECE4FCA6BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartHouse (iOS)/Pods-SmartHouse (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartHouse (iOS)/Pods-SmartHouse (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartHouse (iOS)/Pods-SmartHouse (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3464122E9FD4F2463F9B9B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartHouse (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84020985273C59F7001E4CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840209A5273C61E3001E4CB1 /* GetFromSQL.swift in Sources */,
+				84020994273C59F7001E4CB1 /* ContentView.swift in Sources */,
+				84020992273C59F7001E4CB1 /* SmartHouseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8402098B273C59F7001E4CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840209A6273C61E3001E4CB1 /* GetFromSQL.swift in Sources */,
+				84020995273C59F7001E4CB1 /* ContentView.swift in Sources */,
+				84020993273C59F7001E4CB1 /* SmartHouseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84020998273C59F7001E4CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84020999273C59F7001E4CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8402099B273C59F7001E4CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27041BCF4CC74A3AAD65E6A3 /* Pods-SmartHouse (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y79MR5277;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spiridonov.SmartHouse;
+				PRODUCT_NAME = SmartHouse;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8402099C273C59F7001E4CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C2FC963BBAD55D328E1F64 /* Pods-SmartHouse (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y79MR5277;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spiridonov.SmartHouse;
+				PRODUCT_NAME = SmartHouse;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8402099E273C59F7001E4CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y79MR5277;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spiridonov.SmartHouse;
+				PRODUCT_NAME = SmartHouse;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8402099F273C59F7001E4CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y79MR5277;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spiridonov.SmartHouse;
+				PRODUCT_NAME = SmartHouse;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84020980273C59F5001E4CB1 /* Build configuration list for PBXProject "SmartHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84020998273C59F7001E4CB1 /* Debug */,
+				84020999273C59F7001E4CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8402099A273C59F7001E4CB1 /* Build configuration list for PBXNativeTarget "SmartHouse (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8402099B273C59F7001E4CB1 /* Debug */,
+				8402099C273C59F7001E4CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8402099D273C59F7001E4CB1 /* Build configuration list for PBXNativeTarget "SmartHouse (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8402099E273C59F7001E4CB1 /* Debug */,
+				8402099F273C59F7001E4CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		840209A1273C5C11001E4CB1 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8402097D273C59F5001E4CB1 /* Project object */;
+}
